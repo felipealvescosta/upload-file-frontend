@@ -5,7 +5,9 @@ import filesize from 'filesize';
 import api from './services/api'; 
 
 import GlobalStyle from './styles/global';
-import { Container, Content} from './styles'
+import { Container, Content, Image} from './styles'
+
+import logo from './assets/felpsboxlogo.png'; 
 
 import Upload from './components/Upload';
 import FileList from './components/FileList';
@@ -99,6 +101,9 @@ class App extends Component {
 
     return (
       <Container>
+         <Image>
+            <img src={logo} alt="FelpsBox"   width="300"/>
+          </Image>
         <Content>
             <Upload onUpload={this.handleUpload} />
             {uploadedFiles.progress}
