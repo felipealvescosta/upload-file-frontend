@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/assets/felpsboxlogo.png" alt="Logo" width="20%">
+  <img src="src/assets/felpsboxlogo%20copy.png" alt="Logo" width="20%">
 
 
   <h2 align="center">FelpsBOX</h2>
